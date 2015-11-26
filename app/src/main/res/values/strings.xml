@@ -4,5 +4,6 @@
     <string name="app_name">EDT</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_acceuil">Acceuil</string>
 
 </resources>
