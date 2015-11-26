@@ -1,10 +1,12 @@
 package com.example.pierre_henrilibeert.edt;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.Window;
 
 
@@ -39,5 +41,10 @@ public class Acceuil extends Activity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void onClick(View view) {
+        Intent intent = new Intent(this, AjoutAgenda.class);
+        startActivity(intent);
     }
 }

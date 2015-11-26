@@ -20,6 +20,10 @@
             android:name=".Acceuil"
             android:label="@string/title_activity_acceuil" >
         </activity>
+        <activity
+            android:name=".AjoutAgenda"
+            android:label="@string/title_activity_ajout_agenda" >
+        </activity>
     </application>
 
 </manifest>
