@@ -1,33 +1,28 @@
 package com.example.pierre_henrilibeert.edt;
 
-import android.app.Activity;
-import android.content.Intent;
-import android.graphics.Color;
+import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.view.Window;
-import android.widget.TextView;
 
 
-public class EDTiutlens extends Activity {
+public class Acceuil extends ActionBarActivity {
 
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        getWindow().requestFeature(Window.FEATURE_ACTION_BAR);
- //       getActionBar().hide();
-
-        setContentView(R.layout.activity_edtiutlens);
+        setContentView(R.layout.activity_acceuil);
     }
 
 
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_edtiutlens, menu);
+        getMenuInflater().inflate(R.menu.menu_acceuil, menu);
         return true;
     }
 
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
@@ -41,13 +36,4 @@ public class EDTiutlens extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
-
-    public void onClick (View view) {
-        // Action du Bouton Valider de la page de bienvenue
-        //mene a la page acceuil
-        Intent intent = new Intent(this, Acceuil.class);
-        startActivity(intent);
-
-    }
-
 }

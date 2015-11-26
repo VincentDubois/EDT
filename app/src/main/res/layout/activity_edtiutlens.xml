@@ -3,9 +3,75 @@
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".EDTiutlens">
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".EDTiutlens"
+    android:background="@drawable/bgacc">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView android:text="Bienvenue" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bvn"
+        android:textIsSelectable="false"
+        android:textSize="@dimen/taille_texte"
+        android:textColor="#fff"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Valider"
+        android:id="@+id/boutonvalider"
+        android:layout_marginBottom="26dp"
+        android:background="#40bdaa"
+        android:textColor="#FFF"
+        android:textSize="25sp"
+        android:onClick="onClick"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Votre département :"
+        android:id="@+id/depart"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:layout_below="@+id/bvn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Votre groupe :"
+        android:id="@+id/groupe"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/spinnerdepart"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerdepart"
+        android:spinnerMode="dropdown"
+        android:background="#ffffff"
+        android:layout_below="@+id/bvn"
+        android:layout_alignLeft="@+id/bvn"
+        android:layout_alignStart="@+id/bvn"
+        android:layout_marginTop="80dp"
+        android:layout_alignRight="@+id/bvn"
+        android:layout_alignEnd="@+id/bvn" />
 
 </RelativeLayout>
