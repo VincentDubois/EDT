@@ -3,7 +3,7 @@
     android:layout_height="match_parent"
 
     tools:context="com.example.pierre_henrilibeert.edt.Acceuil"
-    android:background="#ffeeeeee"
+    android:background="#f6f6f6"
     android:id="@+id/headacceuil"
     android:orientation="vertical">>
 
@@ -23,7 +23,7 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#ff000000">
+        android:background="#393939">
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -33,9 +33,10 @@
             android:background="@drawable/btn_menu"
 
             android:layout_marginLeft="12dp"
-            android:layout_marginTop="0dp"
+            android:layout_marginTop="5dp"
             android:onClick="onClick"
-            android:layout_gravity="center_vertical" />
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="5dp" />
 
         <ImageView
             android:layout_width="0dp"
@@ -46,6 +47,7 @@
             android:layout_centerHorizontal="true"
             android:layout_alignParentTop="true"
             android:layout_weight="1" />
+
     </LinearLayout>
 
     <TextView
@@ -54,9 +56,9 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Aujourd&apos;hui"
         android:id="@+id/ajdtext"
-        android:layout_marginTop="42dp"
+        android:layout_marginTop="12dp"
         android:textColor="#000000"
-        android:textSize="30sp"
+        android:textSize="25sp"
         android:singleLine="true"
         android:fontFamily="@string/hello_world"
         android:layout_marginLeft="12dp" />
@@ -66,7 +68,7 @@
         android:layout_height="180dp"
         android:id="@+id/listView"
 
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="24dp"
         android:background="#ffffff"
         android:layout_marginLeft="12dp"
         android:layout_marginRight="12dp" />
@@ -77,9 +79,9 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Agenda"
         android:id="@+id/agendatext"
-        android:layout_marginTop="42dp"
+        android:layout_marginTop="12dp"
         android:textColor="#000000"
-        android:textSize="30sp"
+        android:textSize="25sp"
         android:singleLine="true"
         android:fontFamily="@string/hello_world"
         android:layout_marginLeft="12dp" />

@@ -44,7 +44,7 @@ public class Acceuil extends Activity {
     }
 
     public void onClick(View view) {
-        Intent intent = new Intent(this, AjoutAgenda.class);
+        Intent intent = new Intent(this, menu.class);
         startActivity(intent);
     }
 }

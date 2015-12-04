@@ -16,8 +16,9 @@ public class AjoutAgenda extends Activity {
     public void onClick (View view) {
         // Action du Bouton Valider de la page de bienvenue
         //mene a la page acceuil
-        Intent intent = new Intent(this, Acceuil.class);
+        Intent intent = new Intent(this, menu.class);
         startActivity(intent);
 
     }
+
 }
