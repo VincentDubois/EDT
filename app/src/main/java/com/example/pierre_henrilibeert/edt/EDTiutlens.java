@@ -47,7 +47,6 @@ public class EDTiutlens extends Activity {
         //mene a la page acceuil
         Intent intent = new Intent(this, Acceuil.class);
         startActivity(intent);
-
     }
 
 }

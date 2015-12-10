@@ -21,6 +21,8 @@ public class Acceuil extends Activity {
     }
 
 
+
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -44,7 +46,9 @@ public class Acceuil extends Activity {
     }
 
     public void onClick(View view) {
-        Intent intent = new Intent(this, AjoutAgenda.class);
+        Intent intent = new Intent(this, menu.class);
         startActivity(intent);
     }
+
+
 }
