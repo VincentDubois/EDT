@@ -29,6 +29,7 @@
             android:layout_width="0dp"
             android:layout_height="60dp"
             android:layout_marginRight="60dp"
+
             android:id="@+id/imageView2"
             android:src="@drawable/logo"
             android:layout_centerHorizontal="true"
@@ -43,7 +44,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Acceuil"
+        android:text="Accueil"
         android:id="@+id/menuacceuil"
         android:layout_marginTop="48dp"
         android:onClick="onClick"
@@ -52,7 +53,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Agenda"
+        android:text="@string/agenda"
         android:id="@+id/menuagenda"
         android:layout_marginTop="48dp"
         android:onClick="onClick2"
