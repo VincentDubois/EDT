@@ -8,4 +8,51 @@
     <string name="title_activity_ajout_agenda">AjoutAgenda</string>
     <string name="agenda">Agenda</string>
 
+    <string-array name="departement_array">
+        <item>GEA</item>
+        <item>GEA-APP</item>
+        <item>INFO</item>
+        <item>MMI</item>
+        <item>TC</item>
+        <item>APPR</item>
+        <item>LA</item>
+    </string-array>
+
+    <string-array name="groupe_GEA_array">
+        <item>GMO1-tp1</item>
+        <item>GMO1-tp2</item>
+    </string-array>
+
+    <string-array name="groupe_GEA_APP_array">
+        <item>groupe 1</item>
+        <item>groupe 2</item>
+    </string-array>
+
+    <string-array name="groupe_INFO_array">
+        <item>groupe 1-A-1</item>
+        <item>groupe 1-B-1</item>
+    </string-array>
+
+    <string-array name="groupe_MMI_array">
+        <item>MMI1A1</item>
+        <item>MMI1A2</item>
+        <item>MMI1B1</item>
+        <item>MMI1B2</item>
+    </string-array>
+
+    <string-array name="groupe_TC_array">
+        <item>TC1A</item>
+        <item>TC1B</item>
+    </string-array>
+
+    <string-array name="groupe_APPR_array">
+        <item>groupe 1</item>
+        <item>groupe 2</item>
+    </string-array>
+
+    <string-array name="groupe_LA_array">
+        <item>groupe 1</item>
+        <item>groupe 2</item>
+    </string-array>
+
 </resources>

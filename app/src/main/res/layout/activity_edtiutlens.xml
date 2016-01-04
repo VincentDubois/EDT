@@ -28,7 +28,7 @@
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:text="Valider"
-        android:id="@+id/boutonvalider"
+        android:id="@+id/boutonValider"
         android:layout_marginBottom="26dp"
         android:background="#40bdaa"
         android:textColor="#FFF"
@@ -49,6 +49,15 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp" />
 
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerDepartements"
+        android:entries="@array/departement_array"
+        android:layout_below="@+id/depart"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -57,21 +66,17 @@
         android:id="@+id/groupe"
         android:textColor="#FFF"
         android:textSize="20sp"
-        android:layout_marginTop="37dp"
-        android:layout_below="@+id/spinnerdepart"
-        android:layout_centerHorizontal="true" />
+        android:layout_above="@+id/spinnerGroupes"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView" />
 
     <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/spinnerdepart"
-        android:spinnerMode="dropdown"
-        android:background="#ffffff"
-        android:layout_below="@+id/bvn"
-        android:layout_alignLeft="@+id/bvn"
-        android:layout_alignStart="@+id/bvn"
-        android:layout_marginTop="80dp"
-        android:layout_alignRight="@+id/bvn"
-        android:layout_alignEnd="@+id/bvn" />
+        android:id="@+id/spinnerGroupes"
+        android:entries="@array/groupe_GEA_array"
+        android:layout_above="@+id/boutonValider"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

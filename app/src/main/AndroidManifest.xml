@@ -28,4 +28,8 @@
         </activity>
     </application>
 
+    <uses-sdk android:minSdkVersion="15"
+        android:targetSdkVersion="21"
+        android:maxSdkVersion="23" />
+
 </manifest>
