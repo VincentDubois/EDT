@@ -22,10 +22,10 @@
             android:background="@drawable/btn_menu"
 
             android:layout_marginLeft="12dp"
-            android:layout_marginTop="0dp"
+            android:layout_marginTop="5dp"
             android:onClick="onClick"
             android:layout_gravity="center_vertical"
-            android:clickable="false" />
+            android:layout_marginBottom="5dp" />
 
         <ImageView
             android:layout_width="0dp"
@@ -101,7 +101,7 @@
         android:background="#40bdaa"
         android:textColor="#FFF"
         android:textSize="25sp"
-        android:onClick="onClick"
+
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="12dp" />
 </LinearLayout>

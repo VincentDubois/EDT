@@ -23,7 +23,7 @@ public class EDTiutlens extends Activity implements AdapterView.OnItemSelectedLi
     // Déclaration du fichier préférences
     SharedPreferences settings;
 
-    // Déclaration des widgets
+    // Déclaration des spinner
     private Spinner mySpinnerDepartements;
     private Spinner mySpinnerGroupes;
     private Button myButtonValdier;
