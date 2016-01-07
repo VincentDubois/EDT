@@ -1,11 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    //arrays du selecteur
     <string name="app_name">EDT</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_acceuil">Acceuil</string>
     <string name="title_activity_ajout_agenda">AjoutAgenda</string>
     <string name="agenda">Agenda</string>
+
+    <string-array name="departement_array">
+        <item>GEA</item>
+        <item>GEA-APP</item>
+        <item>INFO</item>
+        <item>MMI</item>
+        <item>TC</item>
+        <item>APPR</item>
+        <item>LA</item>
+    </string-array>
+
+    <string-array name="groupe_GEA_array">
+        <item>GMO1-tp1</item>
+        <item>GMO1-tp2</item>
+        <item>GMO2-tp1</item>
+        <item>GMO2-tp2</item>
+    </string-array>
+
+    <string-array name="groupe_GEA_APP_array">
+        <item>groupe 1</item>
+        <item>groupe 2</item>
+    </string-array>
+
+    <string-array name="groupe_INFO_array">
+        <item>LP Sécurité</item>
+        <item>groupe 1-A-1</item>
+        <item>groupe 1-B-1</item>
+        <item>groupe 1-C-1</item>
+        <item>groupe 1-A-2</item>
+        <item>groupe 1-B-2</item>
+        <item>groupe 1-C-2</item>
+        <item>DU Tremplin</item>
+        <item>groupe 2-A-1</item>
+        <item>groupe 2-B-1</item>
+        <item>groupe 2-C-1</item>
+        <item>groupe 2-A-2</item>
+        <item>groupe 2-B-2</item>
+        <item>groupe 2-C-2</item>
+    </string-array>
+
+    <string-array name="groupe_MMI_array">
+        <item>MMI1A1</item>
+        <item>MMI1A2</item>
+        <item>MMI1B1</item>
+        <item>MMI1B2</item>
+        <item>MMI1C1</item>
+        <item>MMI1C2</item>
+
+        <item>MMI2A1</item>
+        <item>MMI2A2</item>
+        <item>MMI2B1</item>
+        <item>MMI2B2</item>
+        <item>MMI2C1</item>
+
+        <item>LP Créaweb1</item>
+        <item>LP Créaweb2</item>
+    </string-array>
+
+    <string-array name="groupe_TC_array">
+        <item>TC1A</item>
+        <item>TC1B</item>
+        <item>TC1C</item>
+        <item>TC1D</item>
+        <item>TC1E</item>
+        <item>TC1F</item>
+
+        <item>IL1</item>
+        <item>IL2</item>
+        <item>IL3</item>
+        <item>IL4</item>
+
+        <item>PE1</item>
+        <item>PE2</item>
+        <item>ProComWeb</item>
+    </string-array>
+
+    <string-array name="groupe_APPR_array">
+        <item>groupe 1</item>
+        <item>groupe 2</item>
+    </string-array>
+
+    <string-array name="groupe_LA_array">
+        <item>groupe 1</item>
+        <item>groupe 2</item>
+    </string-array>
+    <string name="title_activity_agenda">Agenda</string>
 
 </resources>

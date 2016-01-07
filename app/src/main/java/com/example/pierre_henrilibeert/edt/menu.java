@@ -18,7 +18,7 @@ public class menu extends Activity {
         startActivity(intent);
     }
     public void onClick2(View view) {
-        Intent intent = new Intent(this, AjoutAgenda.class);
+        Intent intent = new Intent(this, agenda.class);
         startActivity(intent);
     }
     public void onClick3(View view) {
