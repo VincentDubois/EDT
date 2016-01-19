@@ -62,6 +62,12 @@
         <item>MMI2B2</item>
         <item>MMI2C1</item>
 
+        <item>Com1</item>
+        <item>Com2</item>
+        <item>Web1</item>
+        <item>Web2</item>
+        <item>Audiovisuel1</item>
+
         <item>LP Créaweb1</item>
         <item>LP Créaweb2</item>
     </string-array>
