@@ -14,7 +14,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class EDTiutlens extends Activity implements AdapterView.OnItemSelectedListener {
+public class EDTiutlens extends Activity implements AdapterView.OnItemSelectedListener, DownloadListener {
 
     // Déclaration des variables
     private String departement = "";
@@ -35,6 +35,17 @@ public class EDTiutlens extends Activity implements AdapterView.OnItemSelectedLi
         //getActionBar().hide();
 
         setContentView(R.layout.activity_edtiutlens);
+
+
+
+        //Création de la tache de téléchargement. On ("this") écoute les évènement "onDownload"
+        DownloadWebPageTask task = new DownloadWebPageTask(this);
+
+        //Lancement du téléchargement proprement dit
+        task.execute("http://gestionedt.emploisdutempssrc.net/edt/ical/MMI/MMI2C1/basic.ics");
+
+
+
 
         // On récup les préférences de l'utilisateur
         settings = getSharedPreferences("Mes préférences", Context.MODE_PRIVATE);
@@ -141,4 +152,9 @@ public class EDTiutlens extends Activity implements AdapterView.OnItemSelectedLi
 
     }
 
+    @Override
+    public void onDownload(String result) {
+        //On place le contenu dans un textview une fois le téléchargement réussi
+        ((TextView) findViewById(R.id.textView)).setText(result);
+    }
 }
