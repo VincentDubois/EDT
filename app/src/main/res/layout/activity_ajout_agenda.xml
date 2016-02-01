@@ -21,16 +21,16 @@
             android:id="@+id/btnmenu"
             android:background="@drawable/btn_menu"
 
-            android:layout_marginLeft="12dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginLeft="@dimen/marginLeftButton"
+            android:layout_marginTop="@dimen/marginBouton"
+            android:layout_marginBottom="@dimen/marginBouton"
             android:onClick="onClick"
-            android:layout_gravity="center_vertical"
-            android:layout_marginBottom="5dp" />
+            android:layout_gravity="center_vertical"/>
 
         <ImageView
-            android:layout_width="0dp"
-            android:layout_height="60dp"
-            android:layout_marginRight="60dp"
+            android:layout_width="@dimen/widthNone"
+            android:layout_height="@dimen/heightLogo"
+            android:layout_marginRight="@dimen/marginRightLogo"
             android:id="@+id/imageView2"
             android:src="@drawable/logo"
             android:layout_centerHorizontal="true"
@@ -48,16 +48,16 @@
         android:text="Date :"
         android:id="@+id/datetxt"
         android:textColor="#393939"
-        android:layout_marginLeft="12dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginLeft="@dimen/marginRow"
+        android:layout_marginTop="@dimen/bigPaddingTop"
         android:textSize="24sp" />
 
     <Spinner
-        android:layout_width="240dp"
-        android:layout_height="36dp"
+        android:layout_width="@dimen/spinnerWidth"
+        android:layout_height="@dimen/spinnerHeight"
         android:id="@+id/spinner"
-        android:layout_marginTop="12dp"
-        android:layout_marginLeft="12dp"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_marginLeft="@dimen/marginRow"
         android:background="#FFF" />
 
     <TextView
@@ -67,41 +67,39 @@
         android:text="Matière :"
         android:id="@+id/matieretxt"
         android:textColor="#393939"
-        android:layout_marginLeft="12dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginLeft="@dimen/marginRow"
+        android:layout_marginTop="@dimen/bigPaddingTop"
         android:textSize="24sp" />
 
     <Spinner
-        android:layout_width="240dp"
-        android:layout_height="36dp"
+        android:layout_width="@dimen/spinnerWidth"
+        android:layout_height="@dimen/spinnerHeight"
         android:id="@+id/spinner2"
-        android:layout_marginTop="12dp"
-        android:layout_marginLeft="12dp"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_marginLeft="@dimen/marginRow"
         android:background="#FFF" />
 
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="180dp"
+        android:layout_height="@dimen/commentaryHeight"
         android:id="@+id/editText"
         android:layout_gravity="right"
         android:background="#FFF"
-        android:layout_marginTop="24dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginRight="12dp"
+        android:layout_marginTop="@dimen/bigPaddingTop"
+        android:layout_marginLeft="@dimen/marginRow"
+        android:layout_marginRight="@dimen/marginRow"
         android:hint="Ecrire un commentaire..."
         android:gravity="top" />
 
     <Button
-        android:layout_width="200dp"
-        android:layout_height="50dp"
+        android:layout_width="@dimen/widthButtonValidate"
+        android:layout_height="@dimen/heightButtonValidate"
         android:text="Ajouter"
         android:id="@+id/boutonajout"
-
         android:background="#40bdaa"
         android:textColor="#FFF"
         android:textSize="25sp"
-
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="12dp" />
+        android:layout_marginLeft="@dimen/marginRow"
+        android:layout_marginTop="@dimen/marginTop" />
 </LinearLayout>

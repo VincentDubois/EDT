@@ -16,21 +16,19 @@
 
         <Button
             style="?android:attr/buttonStyleSmall"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/heightButton"
+            android:layout_height="@dimen/heightButton"
             android:id="@+id/btnmenu"
             android:background="@drawable/btn_menu"
-
-            android:layout_marginLeft="12dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginLeft="@dimen/marginLeftButton"
+            android:layout_marginTop="@dimen/marginBouton"
+            android:layout_marginBottom="@dimen/marginBouton"
             android:onClick="onClick"
-            android:layout_gravity="center_vertical"
-            android:layout_marginBottom="5dp" />
+            android:layout_gravity="center_vertical"/>
 
         <ImageView
-            android:layout_width="0dp"
-            android:layout_height="60dp"
-            android:layout_marginRight="0dp"
+            android:layout_width="@dimen/widthNone"
+            android:layout_height="@dimen/heightLogo"
             android:id="@+id/imageView2"
             android:src="@drawable/logo"
             android:layout_centerHorizontal="true"
@@ -40,17 +38,17 @@
 
         <Button
             style="?android:attr/buttonStyleSmall"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="@dimen/heightButton"
+            android:layout_height="@dimen/heightButton"
             android:id="@+id/btnajout"
             android:background="@drawable/plus"
 
-            android:layout_marginLeft="12dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginLeft="@dimen/marginRow"
+            android:layout_marginTop="@dimen/marginBouton"
             android:onClick="onClick"
             android:layout_gravity="center_vertical"
-            android:layout_marginBottom="5dp"
-            android:layout_marginRight="12dp" />
+            android:layout_marginBottom="@dimen/marginBouton"
+            android:layout_marginRight="@dimen/marginRow" />
 
 
     </LinearLayout>

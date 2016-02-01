@@ -12,8 +12,8 @@
         android:layout_height="match_parent">
 
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="@dimen/widthLogoHome"
+            android:layout_height="@dimen/heightLogoHome"
             android:id="@+id/imageView"
             android:src="@drawable/logo"
             android:layout_alignParentTop="true"
@@ -28,7 +28,7 @@
             android:textColor="#fff"
             android:layout_below="@+id/imageView"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="@dimen/marginTop"
             android:layout_gravity="center_horizontal" />
 
         <TextView
@@ -41,12 +41,12 @@
             android:textSize="20sp"
             android:layout_below="@+id/bvn"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="@dimen/bigPaddingTop"
             android:layout_gravity="center_horizontal" />
 
         <Spinner
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="@dimen/spinnerHeightHome"
             android:id="@+id/spinnerDepartements"
             android:entries="@array/departement_array"
             android:layout_below="@+id/depart"
@@ -54,7 +54,7 @@
             android:layout_alignParentStart="true"
             android:background="#ffffff"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="@dimen/marginTop"
             android:spinnerMode="dialog"
             android:textAlignment="center" />
 
@@ -70,11 +70,11 @@
             android:layout_alignRight="@+id/imageView"
             android:layout_alignEnd="@+id/imageView"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="24dp" />
+            android:layout_marginTop="@dimen/bigPaddingTop" />
 
         <Spinner
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="@dimen/spinnerHeightHome"
             android:id="@+id/spinnerGroupes"
             android:entries="@array/groupe_GEA_array"
             android:layout_above="@+id/boutonValider"
@@ -82,13 +82,13 @@
             android:layout_alignParentStart="true"
             android:background="#FFFFFF"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="@dimen/marginTop"
             android:spinnerMode="dialog"
             android:textAlignment="center" />
 
         <Button
-            android:layout_width="200dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/widthButtonValidate"
+            android:layout_height="@dimen/heightButtonValidate"
             android:text="Valider"
             android:id="@+id/boutonValider"
             android:background="#40bdaa"
@@ -98,7 +98,7 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="32dp" />
+            android:layout_marginTop="@dimen/paddingTopValidateHome" />
 
         <ScrollView
             android:layout_width="match_parent"

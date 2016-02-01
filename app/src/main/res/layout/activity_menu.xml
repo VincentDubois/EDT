@@ -19,17 +19,17 @@
             android:id="@+id/btnmenu"
             android:background="@drawable/btn_menu"
 
-            android:layout_marginLeft="12dp"
-            android:layout_marginTop="0dp"
+            android:layout_marginLeft="@dimen/marginLeftButton"
+            android:layout_marginTop="@dimen/marginBouton"
+            android:layout_marginBottom="@dimen/marginBouton"
             android:onClick="onClick"
             android:layout_gravity="center_vertical"
             android:clickable="false" />
 
         <ImageView
-            android:layout_width="0dp"
-            android:layout_height="60dp"
-            android:layout_marginRight="60dp"
-
+            android:layout_width="@dimen/widthNone"
+            android:layout_height="@dimen/heightLogo"
+            android:layout_marginRight="@dimen/marginRightLogo"
             android:id="@+id/imageView2"
             android:src="@drawable/logo"
             android:layout_centerHorizontal="true"
@@ -46,7 +46,7 @@
         android:layout_height="wrap_content"
         android:text="Accueil"
         android:id="@+id/menuacceuil"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="@dimen/bigPaddingTop"
         android:onClick="onClick"
         />
 
@@ -55,7 +55,7 @@
         android:layout_height="wrap_content"
         android:text="@string/agenda"
         android:id="@+id/menuagenda"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="@dimen/bigPaddingTop"
         android:onClick="onClick2"
         />
 
@@ -64,7 +64,7 @@
         android:layout_height="wrap_content"
         android:text="ajoutagenda"
         android:id="@+id/menuajoutagenda"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="@dimen/bigPaddingTop"
         android:onClick="onClick3"
         />
 
